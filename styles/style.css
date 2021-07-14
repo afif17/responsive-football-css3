@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap'    );
+
+
+
+/*------------------- 
+common styles
+ ---------------------*/
+ body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+ }
+
+ main{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ 
+
+
+ /*--------------------------
+  header navbar
+  --------------------- */
+
+
+ /* .navbar{
+     display: flex;
+     background-color: #2D25A0 ;
+     padding-top: 20px;
+ }
+ .menu-buttons{
+     display: flex;
+
+
+ }
+ .menu-button{
+     list-style: none;
+     margin: 10px 40px;
+ }
+
+ .menu-button a{
+     text-decoration: none;
+     color: #ffffff;
+
+ } */
+
+
+
+/*------------------------
+ copa america style 
+ ------------------------ */
+
+
+
+.copa-america{
+    background-color:#2D25A0 ;
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+
+}
+
+
+.big-title-conmebol{
+    align-items: center;
+    margin-top:207px;
+    margin-left:156px;
+    margin-bottom: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.watch-live-button{
+    height: 44px;
+    width: 168px;
+    background-color: #E02C6D;
+    
+}
+
+
+
+.watch-live{
+    margin: 12px 25px;
+    height: 24px;
+    width: 118px;
+    font-size: 16px;
+    font-weight: 500;
+   
+    color: #FFFFFF;
+    
+}
+
+.kicking-football{
+    margin-right: 141px;
+    margin-top: 153px;
+    margin-bottom: 86px;
+    margin-left: 102px;
+}
+
+.copa-america .kicking-football img{
+    Width: 556.01px;
+    Height: 438px;
+    transition: transform 3s ease-in-out;
+    
+}
+.copa-america .kicking-football img:hover{
+    transform: scale(1.2);
+    
+}
+.main-title{
+    color: #FFFFFF;
+    font-size: 64px;
+    
+}
+
+
+
+ /*------------------------
+  players section styles 
+  ------------------------*/
+ 
+ .players-section{
+     display: flex;
+     align-items: center;
+
+ }
+
+ .players{
+     display: grid;
+     margin-top: 70px;
+     grid-template-columns: repeat(3,1fr);
+     column-gap: 30px;
+     row-gap: 27px;
+     
+     
+ }
+ .player{
+     width: 330px;
+     height: 474px;
+     background: #FFFFFF;
+     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+     padding: 15px;
+
+ }
+ .player-photo{
+     
+     width: 100%;
+     
+ }
+
+
+ /* ----------------------
+ highlights section styles
+ -------------------------- */
+
+
+
+  .highlights-section{
+      margin-top: 165px;
+      
+  }
+.highlights{
+    display: flex;
+    align-items: center;
+   
+
+}
+
+  .highlights-text-part{
+      height: 309px;
+      width: 469px;
+      
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 66px;
+    
+  }
+  .highlights-text-part h1{
+      font-size: 48px;
+      margin: 0;
+      margin-bottom: 10px;
+  }
+
+  
+  /* .highlights-text-part p{ */
+      /* margin: 20px 0; */
+  /* } */
+  .watch-now-button{
+    height: 44px;
+    width: 168px;
+    background-color: #E02C6D;
+    
+}
+
+
+
+.watch-now{
+    margin: 12px 25px;
+    height: 24px;
+    width: 118px;
+    font-size: 16px;
+    font-weight: 500;
+   
+    color: #FFFFFF;
+    
+}
+  
+  .highlights-image-part{
+    padding-left: 66px;
+  }
+  .highlights-image-part img{
+      height: 427px;
+      width: 567px;
+      
+  }
+  .highlights-image-part video{
+    height: 427px;
+    width: 567px;
+    
+}
+
+
+  /*--------------------
+   footer section 
+   -----------------------*/
+
+  footer{
+      margin-top: 158px;
+      margin-bottom: 63px;
+
+  }
+  .footer-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+  }
+  .football-logo{
+    width: 484px;
+    height: 110px;
+
+  }
+
+  .footer-social-contacts{
+        display: grid;    
+        grid-template-columns: repeat(4,1fr);
+        column-gap: 14px;
+        justify-content: center;
+  }
+
+  .footer-social-logos{
+    width: 32px;
+    height: 32px;
+    margin-top: 20px;
+
+  }
+
+  .copyright{
+      margin-top: 20px;
+      font-size:18px;
+  }
+
+
+/*------------------
+ media queries
+----------------- */
+
+/*-------------------
+ for mobile phones
+-------------------- */
+
+  @media only screen and (max-width: 360px) {
+    
+    main{
+
+        justify-content: center;
+    }
+    .copa-america{
+        Width:600px;
+        
+        flex-direction: column;
+    }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .highlights{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+
+
+  }
